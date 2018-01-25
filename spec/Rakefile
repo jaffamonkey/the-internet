@@ -4,7 +4,7 @@ desc 'Run tests against each screen resolution we care about'
 task :run, :environment do |t, args|
   case args[:environment]
   when 'localhost'
-    ENV['base_url'] = 'http://localhost:4567'
+    ENV['base_url'] = 'https://trusting-golick-07f2ca.netlify.com'
   when 'production'
     ENV['base_url'] = 'https://trusting-golick-07f2ca.netlify.com'
   end

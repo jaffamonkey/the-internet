@@ -6,7 +6,7 @@ task :run, :environment do |t, args|
   when 'localhost'
     ENV['base_url'] = 'http://localhost:4567'
   when 'production'
-    ENV['base_url'] = 'http://the-internet.herokuapp.com'
+    ENV['base_url'] = 'https://trusting-golick-07f2ca.netlify.com'
   end
   RESOLUTIONS       = [ { width: '1274', height: '743' },
                         { width: '1024', height: '768' },

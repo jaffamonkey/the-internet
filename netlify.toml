@@ -2,4 +2,4 @@
 [build]
   base    = "."
   publish = "public/"
-  command = "bundle install"
+  command = "rvm install "ruby-2.2.2" && bundle install"

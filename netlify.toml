@@ -1,5 +1,5 @@
 # Global settings applied to the whole site.
 [build]
   base    = ""
-  publish = "public/"
+  publish = "public"
   command = "rvm install ruby-2.4.2 && bundle install"

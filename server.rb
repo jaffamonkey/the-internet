@@ -299,11 +299,11 @@ post '/forgot_password' do
     from:     "no-reply@the-internet.herokuapp.com",
     to:       params[:email],
     subject:  "Forgot Password from the-internet",
-    body:     "A forgot password retrieval was initiated from http://the-internet.herokuapp.com/forgot_password to #{params[:email]}.
+    body:     "A forgot password retrieval was initiated from https://youthful-golick-7a982e.netlify.com/forgot_password to #{params[:email]}.
 
 If this were a real message, you would likely see a link or some relevant text that would help you retrieve a password.
 
-If you want to test login, visit http://the-internet.herokuapp.com/login and use the following credentials:
+If you want to test login, visit https://youthful-golick-7a982e.netlify.com/login and use the following credentials:
 
 username: tomsmith
 password: SuperSecretPassword!",

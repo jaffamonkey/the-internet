@@ -25,7 +25,7 @@ end
 def convert_to_markdown_links(examples)
   markdown_string = ""
   examples.each do |example|
-    markdown_string << "+ [#{example[:title]}](http://the-internet.herokuapp.com#{example[:url_path]})"
+    markdown_string << "+ [#{example[:title]}](https://youthful-golick-7a982e.netlify.com#{example[:url_path]})"
     markdown_string << " (#{example[:notes]})" if example[:notes]
     markdown_string << "\n"
   end
